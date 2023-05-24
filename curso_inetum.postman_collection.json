@@ -1,0 +1,174 @@
+{
+	"id": "0ec5f15b-df7a-b2e0-b01c-c51649daf3bd",
+	"name": "curso_inetum",
+	"description": "",
+	"order": [
+		"5e532b44-c518-30a8-a031-dfcfad58bf1c",
+		"d415873d-a842-965f-ef69-e10923a8cac2",
+		"44f485b3-427e-a5f7-87a9-36f72a0e086d",
+		"071217c4-65a3-74c2-1694-45a286b5e853",
+		"bee8b8ab-ebf7-1c48-b78e-ec096f3a8ffe"
+	],
+	"folders": [],
+	"folders_order": [],
+	"timestamp": 1684929636754,
+	"owner": 0,
+	"public": false,
+	"requests": [
+		{
+			"id": "071217c4-65a3-74c2-1694-45a286b5e853",
+			"headers": "Content-Type: application/json\n",
+			"headerData": [
+				{
+					"key": "Content-Type",
+					"value": "application/json",
+					"description": "",
+					"enabled": true
+				}
+			],
+			"url": "http://localhost:8080/tienda/api",
+			"queryParams": [],
+			"pathVariables": {},
+			"pathVariableData": [],
+			"preRequestScript": null,
+			"method": "GET",
+			"collectionId": "0ec5f15b-df7a-b2e0-b01c-c51649daf3bd",
+			"data": [],
+			"dataMode": "raw",
+			"name": "http://localhost:8080/tienda/api",
+			"description": "",
+			"descriptionFormat": "html",
+			"time": 1684929741879,
+			"version": 2,
+			"responses": [],
+			"tests": null,
+			"currentHelper": "normal",
+			"helperAttributes": {},
+			"rawModeData": "{\"descripcion\" : \"Raton\", \"precio\" : 12.00}"
+		},
+		{
+			"id": "44f485b3-427e-a5f7-87a9-36f72a0e086d",
+			"headers": "Content-Type: application/json\n",
+			"headerData": [
+				{
+					"key": "Content-Type",
+					"value": "application/json",
+					"description": "",
+					"enabled": true
+				}
+			],
+			"url": "http://localhost:8080/tienda/api/646df86a60f86738f9781adc",
+			"queryParams": [],
+			"pathVariables": {},
+			"pathVariableData": [],
+			"preRequestScript": null,
+			"method": "DELETE",
+			"collectionId": "0ec5f15b-df7a-b2e0-b01c-c51649daf3bd",
+			"data": [],
+			"dataMode": "raw",
+			"name": "http://localhost:8080/tienda/api/646df86a60f86738f9781adc",
+			"description": "",
+			"descriptionFormat": "html",
+			"time": 1684929721002,
+			"version": 2,
+			"responses": [],
+			"tests": null,
+			"currentHelper": "normal",
+			"helperAttributes": {},
+			"rawModeData": "{\"descripcion\" : \"Pantalla\", \"precio\" : 140.50}"
+		},
+		{
+			"id": "5e532b44-c518-30a8-a031-dfcfad58bf1c",
+			"headers": "Content-Type: application/json\n",
+			"headerData": [
+				{
+					"key": "Content-Type",
+					"value": "application/json",
+					"description": "",
+					"enabled": true
+				}
+			],
+			"url": "http://localhost:8080/tienda/api/646deeb4d97b360396e48cac",
+			"queryParams": [],
+			"pathVariables": {},
+			"pathVariableData": [],
+			"preRequestScript": null,
+			"method": "PUT",
+			"collectionId": "0ec5f15b-df7a-b2e0-b01c-c51649daf3bd",
+			"data": [],
+			"dataMode": "raw",
+			"name": "http://localhost:8080/tienda/api/646deeb4d97b360396e48cac",
+			"description": "",
+			"descriptionFormat": "html",
+			"time": 1684929645227,
+			"version": 2,
+			"responses": [],
+			"tests": null,
+			"currentHelper": "normal",
+			"helperAttributes": {},
+			"rawModeData": "{\"descripcion\" : \"Scanner\", \"precio\" : 150.00}"
+		},
+		{
+			"id": "bee8b8ab-ebf7-1c48-b78e-ec096f3a8ffe",
+			"headers": "Content-Type: application/json\n",
+			"headerData": [
+				{
+					"key": "Content-Type",
+					"value": "application/json",
+					"description": "",
+					"enabled": true
+				}
+			],
+			"url": "http://localhost:8080/tienda/api/646c972eaa09000e1dda0601",
+			"queryParams": [],
+			"pathVariables": {},
+			"pathVariableData": [],
+			"preRequestScript": null,
+			"method": "GET",
+			"collectionId": "0ec5f15b-df7a-b2e0-b01c-c51649daf3bd",
+			"data": [],
+			"dataMode": "raw",
+			"name": "http://localhost:8080/tienda/api/646c972eaa09000e1dda0601",
+			"description": "",
+			"descriptionFormat": "html",
+			"time": 1684929751404,
+			"version": 2,
+			"responses": [],
+			"tests": null,
+			"currentHelper": "normal",
+			"helperAttributes": {},
+			"rawModeData": "{\"descripcion\" : \"Raton\", \"precio\" : 12.00}"
+		},
+		{
+			"id": "d415873d-a842-965f-ef69-e10923a8cac2",
+			"headers": "Content-Type: application/json\n",
+			"headerData": [
+				{
+					"key": "Content-Type",
+					"value": "application/json",
+					"description": "",
+					"enabled": true
+				}
+			],
+			"url": "http://localhost:8080/tienda/api/",
+			"queryParams": [],
+			"pathVariables": {},
+			"pathVariableData": [],
+			"preRequestScript": null,
+			"method": "POST",
+			"collectionId": "0ec5f15b-df7a-b2e0-b01c-c51649daf3bd",
+			"data": [],
+			"dataMode": "raw",
+			"name": "http://localhost:8080/tienda/api/",
+			"description": "",
+			"descriptionFormat": "html",
+			"time": 1684929672983,
+			"version": 2,
+			"responses": [],
+			"tests": null,
+			"currentHelper": "normal",
+			"helperAttributes": {},
+			"rawModeData": "{\"descripcion\" : \"prueba\", \"precio\" : 12.00}"
+		}
+	]
+}
