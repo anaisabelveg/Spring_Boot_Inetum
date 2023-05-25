@@ -1,0 +1,32 @@
+crear un micro-servicio-carrito en el puerto 8003
+
+en models  crear Carrito:
+	String id
+	String usuario
+	List<Item> contenido
+	double importe
+
+en persistence crear CarritoDAO contra Mongo:
+	declarar un metodo que busque el carrito por el nombre de usuario
+
+en el paquete services, (con Interface)
+la peticion al micro-servicio-items a traves Feign,
+por lo tanto necesitamos el cliente Feign:
+	Carrito crear(String usuario)
+	void agregarItem(String id, Integer cantidad, String usuario)
+	Carrito buscar(String usuario)
+	void eliminarItem(String id, String usuario)
+
+
+Crear ItemController exponemos
+	/crear/{usuario}
+	Carrito crear(String usuario)
+
+	/agregar/id/{id}/cantidad/{cantidad}/usuario/{usuario}
+	void agregarItem(String id, Integer cantidad, String usuario)
+
+	/buscar/{usuario}
+	Carrito buscar(String usuario)
+
+	/sacar/id/{id}/usuario/{usuario}
+	void eliminarItem(String id, String usuario)
